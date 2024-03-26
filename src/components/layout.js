@@ -4,7 +4,7 @@ import { container } from './layout.module.css'
 
 const Layout = ({ pageTitle, children }) => {
     return (
-        <div className='container'>
+        <div className={container}>
             <nav>
                 <ul>
                     <li><Link to= "/">Home</Link></li>
